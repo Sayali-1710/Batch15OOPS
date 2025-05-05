@@ -5,7 +5,8 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-	  <StartupObject>Batch15OOPSAssign.AbstractExample</StartupObject>
+	  <StartupObject>Batch15OOPSAssign.ExceptionHandling</StartupObject>
+	 
 
   </PropertyGroup>
 

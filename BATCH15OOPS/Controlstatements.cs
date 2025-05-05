@@ -105,6 +105,7 @@ namespace Batch15OOPS
 
             Console.WriteLine("Using For Loop");
             for (int s = 1; s < 10; s++)
+
             {
                 Console.WriteLine($" Student {s} is checked ");
             }
@@ -163,17 +164,17 @@ namespace Batch15OOPS
                 {
                     Console.WriteLine("Enter a number   :  ");
 
-                   int number = Convert.ToInt32(Console.ReadLine());
+                    int number = Convert.ToInt32(Console.ReadLine());
                     {
-                        if ( number < 0)
-                        break;
+                        if (number < 0)
+                            break;
                     }
 
                     sum += number;
 
                 }
 
-                Console.WriteLine("Total Sum is : "+ sum);
+                Console.WriteLine("Total Sum is : " + sum);
 
 
 
@@ -185,9 +186,9 @@ namespace Batch15OOPS
             {
                 Console.WriteLine("------for Continue Statement------");
                 Console.WriteLine(" Enter a number: 20");
-                for (int s = 1; s <=20; s++)
+                for (int s = 1; s <= 20; s++)
                 {
-                    if ( s % 3 == 0)
+                    if (s % 3 == 0)
                     {
                         continue;
                     }
@@ -207,23 +208,24 @@ namespace Batch15OOPS
                 Console.WriteLine("-----for Goto statement------");
 
 
-               {
+                {
+                        
 
-                    int age = 0;
+                    int age;
                 startloop:
                     Console.WriteLine("Enter a valid age between(0-120): ");
-                    age = Convert.ToInt32(Console.ReadLine()) ;
+                    age = Convert.ToInt32(Console.ReadLine());
                     if (age < 0 || age > 120)
                     {
-                        Console.WriteLine(" The invalid age " );
+                        Console.WriteLine(" The invalid age ");
                         goto startloop;
-                        
+
                     }
                     Console.WriteLine($" valid age entered: {age} ");
 
 
 
-               }
+                }
 
 
 

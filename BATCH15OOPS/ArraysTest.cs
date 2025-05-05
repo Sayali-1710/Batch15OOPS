@@ -27,7 +27,7 @@ namespace Batch15OOPS
                 Mobiles[5] = "RedMi";
 
                 //
-                string[] Mobile = ["Apple", "Samsung", "onePlus"];
+                //string[] Mobile = ["Apple", "Samsung", "onePlus"];
 
                 //Acessing values from array
 
